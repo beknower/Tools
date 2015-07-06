@@ -1,0 +1,1169 @@
+2015-01-27 12:23:50 ERROR  : ERROR:  database "mydb" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2015-01-27 13:25:52 ERROR  : ERROR:  database "hxing" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2015-01-27 18:44:32 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:44:36 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:44:37 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:44:37 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:44:38 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:44:45 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:44:47 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:44:57 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:45:07 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:45:15 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:45:17 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:45:25 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:45:27 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:45:36 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:45:37 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:45:47 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:45:57 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:46:07 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:46:17 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 18:46:27 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-27 22:25:04 ERROR  : ERROR:  relation "zm_id_seq" does not exist
+LINE 2:   FROM zm_id_seq
+               ^
+2015-01-27 22:25:05 ERROR  : Column not found in pgSet: last_value
+2015-01-27 22:25:06 ERROR  : Column not found in pgSet: min_value
+2015-01-27 22:25:07 ERROR  : Column not found in pgSet: max_value
+2015-01-27 22:25:13 ERROR  : Column not found in pgSet: cache_value
+2015-01-27 22:25:14 ERROR  : Column not found in pgSet: increment_by
+2015-01-27 22:25:14 ERROR  : Column not found in pgSet: is_cycled
+2015-01-27 22:25:15 ERROR  : Column not found in pgSet: is_called
+2015-01-27 22:25:15 ERROR  : ERROR:  relation "zm_id_seq" does not exist
+LINE 2:   FROM zm_id_seq
+               ^
+2015-01-27 22:25:17 ERROR  : Column not found in pgSet: last_value
+2015-01-27 22:25:18 ERROR  : Column not found in pgSet: min_value
+2015-01-27 22:25:18 ERROR  : Column not found in pgSet: max_value
+2015-01-27 22:25:18 ERROR  : Column not found in pgSet: cache_value
+2015-01-27 22:25:18 ERROR  : Column not found in pgSet: increment_by
+2015-01-27 22:25:18 ERROR  : Column not found in pgSet: is_cycled
+2015-01-27 22:25:19 ERROR  : Column not found in pgSet: is_called
+2015-01-27 22:25:25 ERROR  : ERROR:  sequence "zm_id_seq" does not exist
+2015-01-27 23:46:55 ERROR  : ERROR:  relation "public.zm" does not exist
+LINE 4:   public.zm
+          ^
+2015-01-28 10:14:31 ERROR  : ERROR:  syntax error at or near "limit"
+LINE 1: select * from sm_user s where limit 2;
+                                      ^
+2015-01-28 10:56:22 ERROR  : ERROR:  relation "id" does not exist
+LINE 1: select nextval('id');
+                       ^
+2015-01-28 23:44:17 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-01-29 13:19:19 ERROR  : ERROR:  LIMIT #,# syntax is not supported
+LINE 1: select * from sm_user order by id limit 2,10
+                                          ^
+HINT:  Use separate LIMIT and OFFSET clauses.
+2015-01-29 13:39:27 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 13:39:37 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 13:48:20 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 13:48:27 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 13:54:04 ERROR  : FATAL:  no pg_hba.conf entry for host "127.0.0.1", user "postgres", database "postgres", SSL off
+
+2015-01-29 13:54:57 ERROR  : FATAL:  no pg_hba.conf entry for host "127.0.0.1", user "postgres", database "postgres", SSL off
+
+2015-01-29 13:55:36 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 13:56:04 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 13:58:12 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 13:58:56 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 13:59:29 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:01:00 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:01:37 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:02:50 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:11:44 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-29 14:11:46 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-29 14:11:47 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-29 14:11:48 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-29 14:11:48 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xc8 0xd5
+2015-01-29 14:31:43 ERROR  : Error connecting to the server: FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:31:49 ERROR  : Error connecting to the server: FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:32:04 ERROR  : Error connecting to the server: FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:35:11 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:35:46 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:36:07 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:36:22 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:36:34 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:37:06 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:38:50 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:39:35 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-01-29 14:40:45 ERROR  : FATAL:  could not load pg_hba.conf
+
+2015-02-01 19:30:15 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-02-03 22:43:59 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-02-05 16:46:48 ERROR  : ERROR:  could not seek to end of file "base/18334/33312": Invalid argument
+2015-02-05 16:46:52 ERROR  : ERROR:  could not seek to end of file "base/18334/33312": Invalid argument
+2015-02-05 16:47:19 ERROR  : ERROR:  could not seek to end of file "base/18334/33312": Invalid argument
+2015-02-05 17:40:52 ERROR  : ERROR:  could not seek to end of file "base/18334/33312": Invalid argument
+2015-02-05 17:45:11 ERROR  : ERROR:  cannot drop table jbpm_action because other objects depend on it
+DETAIL:  constraint fk_job_action on table jbpm_job depends on table jbpm_action
+constraint fk_log_action on table jbpm_log depends on table jbpm_action
+constraint fk_node_action on table jbpm_node depends on table jbpm_action
+constraint fk_node_script on table jbpm_node depends on table jbpm_action
+constraint fk_rtactn_action on table jbpm_runtimeaction depends on table jbpm_action
+constraint fk_varacc_script on table jbpm_variableaccess depends on table jbpm_action
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2015-02-05 17:45:24 ERROR  : ERROR:  cannot drop table jbpm_bytearray because other objects depend on it
+DETAIL:  constraint fk_byteblock_file on table jbpm_byteblock depends on table jbpm_bytearray
+constraint fk_log_oldbytes on table jbpm_log depends on table jbpm_bytearray
+constraint fk_log_newbytes on table jbpm_log depends on table jbpm_bytearray
+constraint fk_byteinst_array on table jbpm_variableinstance depends on table jbpm_bytearray
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2015-02-05 17:45:34 ERROR  : ERROR:  cannot drop table jbpm_id_group because other objects depend on it
+DETAIL:  constraint fk_id_memship_grp on table jbpm_id_membership depends on table jbpm_id_group
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2015-02-05 17:45:42 ERROR  : ERROR:  cannot drop table jbpm_event because other objects depend on it
+DETAIL:  constraint fk_action_event on table jbpm_action depends on table jbpm_event
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2015-02-05 17:45:53 ERROR  : ERROR:  cannot drop table jbpm_taskinstance because other objects depend on it
+DETAIL:  constraint fk_comment_tsk on table jbpm_comment depends on table jbpm_taskinstance
+constraint fk_job_tskinst on table jbpm_job depends on table jbpm_taskinstance
+constraint fk_taskactpl_tski on table jbpm_taskactorpool depends on table jbpm_taskinstance
+constraint fk_var_tskinst on table jbpm_variableinstance depends on table jbpm_taskinstance
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2015-02-07 18:59:18 ERROR  : ERROR:  cannot drop table jbpm4_deployment because other objects depend on it
+DETAIL:  constraint fk_deplprop_depl on table jbpm4_deployprop depends on table jbpm4_deployment
+constraint fk_lob_deployment on table jbpm4_lob depends on table jbpm4_deployment
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2015-02-12 06:54:13 ERROR  : ERROR:  type "number" does not exist
+LINE 8:   flow_def_id number not null,
+                      ^
+2015-02-12 06:55:09 ERROR  : ERROR:  type "content" does not exist
+LINE 10:   flow_xml content not null,
+                    ^
+2015-02-12 18:53:54 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-02-12 21:23:26 ERROR  : ERROR:  syntax error at or near "toc"
+LINE 1: toc.dat
+        ^
+2015-02-14 17:27:53 ERROR  : ERROR:  database "hxin" is being accessed by other users
+DETAIL:  There is 1 other session using the database.
+2015-02-15 16:32:55 ERROR  : ERROR:  syntax error at or near "("
+LINE 6:    user_id              integer(20)                    not n...
+                                       ^
+2015-02-15 16:33:32 ERROR  : ERROR:  syntax error at or near "clustered"
+LINE 18:    constraint PK_TB_USER primary key clustered (user_id)
+                                              ^
+2015-02-28 15:29:33 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-03-03 10:43:56 ERROR  : FATAL:  no pg_hba.conf entry for host "192.168.1.107", user "eam", database "postgres", SSL off
+
+2015-03-03 17:56:04 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-03-03 18:13:51 ERROR  : ERROR:  syntax error at or near "not"
+LINE 1: not
+        ^
+2015-03-03 18:13:56 ERROR  : ERROR:  syntax error at or near "("
+LINE 9:    budget_plan          integer(16)                    null,
+                                       ^
+2015-03-04 11:35:36 ERROR  : ERROR:  relation "tb_budget_type" already exists
+2015-03-04 14:58:56 ERROR  : ERROR:  relation "bu" does not exist
+LINE 1: select * from bu
+                      ^
+2015-03-04 14:58:58 ERROR  : ERROR:  relation "bu" does not exist
+LINE 1: ...OSE off, COSTS on, BUFFERS off, TIMING off )select * from bu
+                                                                     ^
+2015-03-04 16:00:57 ERROR  : ERROR:  duplicate key value violates unique constraint "sm_user_pkey"
+DETAIL:  Key (id)=(1) already exists.
+2015-03-05 17:11:49 ERROR  : ERROR:  syntax error at end of input
+LINE 4:   where
+               ^
+2015-03-05 17:12:08 ERROR  : ERROR:  aggregate functions are not allowed in WHERE
+LINE 4:   where t.id = max(t.id)
+                       ^
+2015-03-05 17:13:47 ERROR  : ERROR:  syntax error at or near "order"
+LINE 5:   order by t.id desc
+          ^
+2015-03-05 17:20:36 ERROR  : ERROR:  syntax error at or near "order"
+LINE 5:   order by t.id desc
+          ^
+2015-03-05 17:52:44 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-03-05 17:54:35 ERROR  : ERROR:  syntax error at or near "memo"
+LINE 11:   memo character varying(512)
+           ^
+2015-03-06 09:11:57 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-03-06 10:13:42 ERROR  : ERROR:  syntax error at or near "{"
+LINE 2: ...where hp.dbid_=task.procinst_ and task.assignee_=#{username}...
+                                                             ^
+2015-03-06 10:43:37 ERROR  : ERROR:  cannot truncate a table referenced in a foreign key constraint
+DETAIL:  Table "jbpm4_deployprop" references "jbpm4_deployment".
+HINT:  Truncate table "jbpm4_deployprop" at the same time, or use TRUNCATE ... CASCADE.
+2015-03-06 10:50:19 ERROR  : ERROR:  syntax error at or near "select"
+LINE 4: or exits(select 1 from jbpm4_task st 
+                 ^
+2015-03-06 10:50:28 ERROR  : ERROR:  operator does not exist: character varying = integer
+LINE 3: and t.assignee_ = 1
+                        ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2015-03-06 10:50:38 ERROR  : ERROR:  column t.dbid does not exist
+LINE 5: where t.dbid = st.name and st.assignee_ = '1'
+              ^
+2015-03-06 10:51:21 ERROR  : ERROR:  column t.dbid does not exist
+LINE 3: and t.assignee_ = '1' and t.dbid = 10010
+                                  ^
+2015-03-06 10:51:45 ERROR  : ERROR:  column st.name does not exist
+LINE 5: where t.dbid_ = st.name and st.assignee_ = '1'
+                        ^
+2015-03-06 10:51:52 ERROR  : ERROR:  operator does not exist: bigint = character varying
+LINE 5: where t.dbid_ = st.name_ and st.assignee_ = '1'
+                      ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2015-03-06 10:55:10 ERROR  : ERROR:  function round(character varying) does not exist
+LINE 5: where t.dbid_ = round(st.name_) and st.assignee_ = '1'
+                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-06 10:55:57 ERROR  : ERROR:  syntax error at or near "as"
+LINE 5: where t.dbid_ = st.name_ as numeric and st.assignee_ = '1'
+                                 ^
+2015-03-06 10:56:46 ERROR  : ERROR:  function to_number(character varying) does not exist
+LINE 5: where t.dbid_ = to_number(st.name_) and st.assignee_ = '1'
+                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-06 10:57:29 ERROR  : ERROR:  function to_number(unknown) does not exist
+LINE 2: select 1 where 1 = to_number('1')
+                           ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-06 10:58:08 ERROR  : ERROR:  numeric field overflow
+DETAIL:  A field with precision 5, scale 0 must round to an absolute value less than 10^5.
+2015-03-06 10:58:12 ERROR  : ERROR:  numeric field overflow
+DETAIL:  A field with precision 5, scale 0 must round to an absolute value less than 10^5.
+2015-03-06 10:58:17 ERROR  : ERROR:  numeric field overflow
+DETAIL:  A field with precision 5, scale 0 must round to an absolute value less than 10^5.
+2015-03-06 10:58:49 ERROR  : ERROR:  syntax error at or near "999"
+LINE 2: select 1 where 1 = to_number('1,'999')
+                                         ^
+2015-03-06 11:01:02 ERROR  : ERROR:  syntax error at or near "999999999"
+LINE 1: 999999999
+        ^
+2015-03-06 11:04:01 ERROR  : ERROR:  invalid input syntax for type numeric: " "
+2015-03-06 11:04:27 ERROR  : ERROR:  zero-length delimited identifier at or near """"
+LINE 1: ...99999999999999999999') from jbpm4_task t where t.name_ != ""
+                                                                     ^
+2015-03-06 11:04:36 ERROR  : ERROR:  invalid input syntax for type numeric: " "
+2015-03-06 11:04:50 ERROR  : ERROR:  invalid input syntax for type numeric: " "
+2015-03-06 11:05:05 ERROR  : ERROR:  invalid input syntax for type numeric: " "
+2015-03-06 14:16:30 ERROR  : ERROR:  relation "workflow_task_user" already exists
+2015-03-06 20:40:51 ERROR  : ERROR:  relation "workflow_task_user" already exists
+2015-03-06 21:02:57 ERROR  : ERROR:  syntax error at or near "name"
+LINE 2:   id,t.taskdefname_ name,t.supertask_ super_id,t.procinst_
+                            ^
+2015-03-07 15:19:18 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-03-07 15:20:57 ERROR  : ERROR:  syntax error at or near "jbpm4_task"
+LINE 1:   jbpm4_task t,jbpm4_hist_procinst
+          ^
+2015-03-07 18:20:04 ERROR  : ERROR:  syntax error at or near "name"
+LINE 2:   id,t.taskdefname_ name,t.supertask_ super_id,t.procinst_
+                            ^
+2015-03-07 18:32:22 ERROR  : ERROR:  relation "workflow_user_comment" already exists
+2015-03-07 18:50:44 ERROR  : ERROR:  syntax error at or near "from"
+LINE 4:   flow_id,from
+                  ^
+2015-03-07 23:47:16 ERROR  : ERROR:  syntax error at or near "t"
+LINE 13:   where t.supertask_ = st.dbid_ t.procinst_ = pi.dbid_
+                                         ^
+2015-03-07 23:53:14 ERROR  : ERROR:  syntax error at or near "then"
+LINE 3:   case t.supertask_ !=null then st.taskdefname_ else t.taskd...
+                                   ^
+2015-03-07 23:58:49 ERROR  : ERROR:  invalid input syntax for integer: ""
+LINE 4:   case when 10004 != '' then 1 else 2 end sa,
+                             ^
+2015-03-08 15:37:31 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-03-10 21:32:59 ERROR  : ERROR:  syntax error at or near "table"
+LINE 1: update table workflow f set f.remark = 1 where 1<>1
+               ^
+2015-03-10 21:33:06 ERROR  : ERROR:  column "f" of relation "workflow" does not exist
+LINE 1: update  workflow f set f.remark = 1 where 1<>1
+                               ^
+2015-03-11 11:03:10 ERROR  : ERROR:  syntax error at or near "or"
+LINE 1: ...procinst_ = pi.dbid_ )   and   (t.procinst_ =   ? or   st.pr...
+                                                             ^
+2015-03-11 11:03:52 ERROR  : ERROR:  schema "wf" does not exist
+2015-03-11 11:05:22 ERROR  : ERROR:  operator does not exist: character varying = integer
+LINE 11: where t.supertask_ =   st.dbid_ and tu.workflow_id = wf.id  
+                                                            ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2015-03-11 11:10:40 ERROR  : ERROR:  relation "workflow_task_user" already exists
+2015-03-11 11:11:24 ERROR  : ERROR:  relation "budget" already exists
+2015-03-11 11:35:18 ERROR  : ERROR:  syntax error at or near "workflow"
+LINE 1: workflow
+        ^
+2015-03-11 18:53:08 ERROR  : ERROR:  relation "workflow" already exists
+2015-03-11 18:59:58 ERROR  : ERROR:  relation "workflow" already exists
+2015-03-11 19:23:16 ERROR  : ERROR:  invalid input syntax for integer: "WorkFlow0.60001"
+LINE 8:           and   (t.procinst_ =   'WorkFlow0.60001' or   st.p...
+                                         ^
+2015-03-11 19:27:05 ERROR  : ERROR:  operator does not exist: bigint += bigint
+LINE 6:         sm_user u   where t.supertask_ +=   st.dbid_
+                                               ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2015-03-11 19:50:26 ERROR  : ERROR:  syntax error at or near "JOIN"
+LINE 23:        JOIN jbpm4_task st
+                ^
+2015-03-11 19:53:13 ERROR  : ERROR:  syntax error at or near "CASE"
+LINE 3:        CASE 
+               ^
+2015-03-11 21:12:11 ERROR  : ERROR:  column tu.task_id does not exist
+LINE 1: ...FT JOIN jbpm4_task t          ON t.taskdefname_ = tu.task_id...
+                                                             ^
+2015-03-11 21:14:15 ERROR  : ERROR:  column tu.task_id does not exist
+LINE 19:          ON t.taskdefname_ = tu.task_id
+                                      ^
+2015-03-11 21:14:25 ERROR  : ERROR:  column tu.task_id does not exist
+LINE 22:             AND st.taskdefname_ = tu.task_id
+                                           ^
+2015-03-12 16:59:46 ERROR  : ERROR:  operator does not exist: character varying = integer
+LINE 28:        and t.assignee_ = tu.user_id or st.assignee_ = tu.use...
+                                ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2015-03-12 17:00:53 ERROR  : ERROR:  function to_char(integer) does not exist
+LINE 28:        and (t.assignee_ = to_char(tu.user_id) or st.assignee...
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-13 09:03:40 ERROR  : ERROR:  function to_char(integer) does not exist
+LINE 28:        and (t.assignee_ = to_char(tu.user_id) or st.assignee...
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-13 09:03:43 ERROR  : ERROR:  function to_char(integer) does not exist
+LINE 28:        and (t.assignee_ = to_char(tu.user_id) or st.assignee...
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-13 09:03:44 ERROR  : ERROR:  function to_char(integer) does not exist
+LINE 28:        and (t.assignee_ = to_char(tu.user_id) or st.assignee...
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-13 09:03:44 ERROR  : ERROR:  function to_char(integer) does not exist
+LINE 28:        and (t.assignee_ = to_char(tu.user_id) or st.assignee...
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-13 09:03:44 ERROR  : ERROR:  function to_char(integer) does not exist
+LINE 28:        and (t.assignee_ = to_char(tu.user_id) or st.assignee...
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-13 09:03:45 ERROR  : ERROR:  function to_char(integer) does not exist
+LINE 28:        and (t.assignee_ = to_char(tu.user_id) or st.assignee...
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-13 09:03:45 ERROR  : ERROR:  function to_char(integer) does not exist
+LINE 28:        and (t.assignee_ = to_char(tu.user_id) or st.assignee...
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-13 09:03:45 ERROR  : ERROR:  function to_char(integer) does not exist
+LINE 28:        and (t.assignee_ = to_char(tu.user_id) or st.assignee...
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-13 09:06:05 ERROR  : ERROR:  function to_char(integer) does not exist
+LINE 29:        and (t.assignee_ = to_char(tu.user_id) or st.assignee...
+                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-13 11:45:36 ERROR  : ERROR:  syntax error at or near "{"
+LINE 5:   #{user_id}
+           ^
+2015-03-14 17:18:14 ERROR  : ERROR:  missing FROM-clause entry for table "pi"
+LINE 9:        pi.procdefid_ flow_def_id,
+               ^
+2015-03-15 09:25:19 ERROR  : ERROR:  syntax error at or near "workflow_task_user"
+LINE 1: delete workflow_task_user where  workflow_id = 2
+               ^
+2015-03-16 14:34:21 ERROR  : ERROR:  syntax error at or near "on"
+LINE 7:   pi.procdefid_ on uc.flow_id = pi.id_
+                        ^
+2015-03-16 14:34:32 ERROR  : ERROR:  column t.workflow_id does not exist
+LINE 4:   t inner join workflow_user_comment uc on t.workflow_id = u...
+                                                   ^
+2015-03-16 14:34:43 ERROR  : ERROR:  column uc.workflow_id does not exist
+LINE 4:   t inner join workflow_user_comment uc on t.id = uc.workflo...
+                                                          ^
+2015-03-16 14:49:20 ERROR  : ERROR:  column uc.id_ does not exist
+LINE 8:   uc.id_ = 'WorkFlow0.7' and t.flow_def_id is not null
+          ^
+2015-03-23 15:48:25 ERROR  : could not receive data from server: Software caused connection abort (0x00002745/10053)
+2015-03-24 15:16:54 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-03-24 15:27:53 ERROR  : could not receive data from server: Software caused connection abort (0x00002745/10053)
+2015-03-24 15:28:38 ERROR  : 无法重新建立连接到服务器 eam 在  eam@192.168.1.201:5432 上
+2015-03-24 15:45:34 ERROR  : ERROR:  column so.id does not exist
+LINE 1: select   su.id, su.code, su.name,su.remark,so.id dept_id,so....
+                                                   ^
+2015-03-24 15:56:11 ERROR  : ERROR:  column su.org_id does not exist
+LINE 1: ...name org_name   from sm_flow su,sm_org so   where su.org_id ...
+                                                             ^
+2015-03-26 18:37:52 ERROR  : ERROR:  operator does not exist: character varying = integer
+LINE 1: select * from sm_flow s ,workflow wf where s.flow_id = wf.id
+                                                             ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.
+2015-03-27 18:51:56 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-03-30 13:40:38 ERROR  : ERROR:  function count_group(integer) does not exist
+LINE 1: select count_group(id) from sm_flow
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-30 13:41:49 ERROR  : ERROR:  function group_concat(integer) does not exist
+LINE 1: select group_concat(id) from sm_flow
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-30 13:44:34 ERROR  : ERROR:  function group_concat(integer) does not exist
+LINE 1: select group_concat(id) from sm_flow
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-30 13:44:41 ERROR  : ERROR:  function group_concat(character varying) does not exist
+LINE 1: select group_concat(code) from sm_flow
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-30 13:44:48 ERROR  : ERROR:  zero-length delimited identifier at or near """"
+LINE 1: select group_concat("") from sm_flow
+                            ^
+2015-03-30 13:44:57 ERROR  : ERROR:  function group_concat(character varying) does not exist
+LINE 1: select group_concat(s.name) from sm_flow s
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2015-03-30 15:12:07 ERROR  : ERROR:  column bt.code does not exist
+LINE 6:   bt.code as budget_type_code,
+          ^
+2015-03-30 15:13:07 ERROR  : ERROR:  column a.name does not exist
+LINE 11:   a.name as asset_name,
+           ^
+2015-03-30 15:15:49 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:37 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:38 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:38 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:38 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:39 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:39 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:39 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:40 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:40 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:40 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:41 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:41 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:41 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-03-30 15:18:42 ERROR  : ERROR:  column su.plan_model does not exist
+LINE 14:   su.plan_model,
+           ^
+2015-04-08 13:27:44 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-04-08 13:27:51 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-04-10 13:39:55 ERROR  : Error connecting to the server: definition of service "pam" not found
+
+2015-04-13 14:22:24 ERROR  : ERROR:  column "t" of relation "project" does not exist
+LINE 1: update project t set t.code = '1111'
+                             ^
+2015-04-13 14:22:33 ERROR  : ERROR:  syntax error at or near "table"
+LINE 1: update table project t set t.code = '1111'
+               ^
+2015-04-13 14:22:34 ERROR  : ERROR:  syntax error at or near "table"
+LINE 1: update table project t set t.code = '1111'
+               ^
+2015-04-13 14:22:38 ERROR  : ERROR:  column "t" of relation "project" does not exist
+LINE 1: update project t set t.code = '1111'
+                             ^
+2015-04-13 14:22:41 ERROR  : ERROR:  column "t" of relation "project" does not exist
+LINE 1: update project set t.code = '1111'
+                           ^
+2015-04-13 18:33:12 ERROR  : ERROR:  role "pam" does not exist
+2015-04-15 19:06:04 ERROR  : ERROR:  cannot drop table jbpm4_deployment because other objects depend on it
+DETAIL:  constraint jbpm4_deployprop_deployment__fkey on table jbpm4_deployprop depends on table jbpm4_deployment
+constraint jbpm4_deployprop_deployment__fkey1 on table jbpm4_deployprop depends on table jbpm4_deployment
+constraint jbpm4_lob_deployment__fkey on table jbpm4_lob depends on table jbpm4_deployment
+constraint jbpm4_lob_deployment__fkey1 on table jbpm4_lob depends on table jbpm4_deployment
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2015-04-15 19:06:22 ERROR  : ERROR:  relation "asset_ins_id_seq" does not exist
+LINE 2:   FROM asset_ins_id_seq
+               ^
+2015-04-15 19:06:23 ERROR  : Column not found in pgSet: last_value
+2015-04-15 19:06:24 ERROR  : Column not found in pgSet: min_value
+2015-04-15 19:06:24 ERROR  : Column not found in pgSet: max_value
+2015-04-15 19:06:25 ERROR  : Column not found in pgSet: cache_value
+2015-04-15 19:06:26 ERROR  : Column not found in pgSet: increment_by
+2015-04-15 19:06:26 ERROR  : Column not found in pgSet: is_cycled
+2015-04-15 19:06:26 ERROR  : Column not found in pgSet: is_called
+2015-04-15 19:06:26 ERROR  : ERROR:  relation "asset_ins_id_seq" does not exist
+LINE 2:   FROM asset_ins_id_seq
+               ^
+2015-04-15 19:06:26 ERROR  : Column not found in pgSet: last_value
+2015-04-15 19:06:26 ERROR  : Column not found in pgSet: min_value
+2015-04-15 19:06:26 ERROR  : Column not found in pgSet: max_value
+2015-04-15 19:06:26 ERROR  : Column not found in pgSet: cache_value
+2015-04-15 19:06:27 ERROR  : Column not found in pgSet: increment_by
+2015-04-15 19:06:27 ERROR  : Column not found in pgSet: is_cycled
+2015-04-15 19:06:27 ERROR  : Column not found in pgSet: is_called
+2015-04-18 19:15:49 ERROR  : could not receive data from server: Software caused connection abort (0x00002745/10053)
+2015-04-24 16:05:53 ERROR  : ERROR:  canceling statement due to user request
+2015-04-24 16:11:33 ERROR  : ERROR:  canceling statement due to user request
+2015-04-26 10:27:17 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+password retrieved from file "C:\Users\Administrator\AppData\Roaming/postgresql/pgpass.conf"
+
+2015-04-26 10:29:29 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-26 10:29:33 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-26 10:29:41 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-26 10:29:49 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:03:20 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:04:24 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:19:26 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:19:40 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:19:44 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:20:17 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:21:06 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-04-27 22:21:10 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgres"
+
+2015-04-27 22:23:26 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:23:31 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:26:52 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:27:00 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:27:08 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:27:24 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-27 22:27:42 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-28 13:38:59 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-28 13:39:07 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-28 13:39:21 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-28 13:39:36 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-28 13:40:19 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-28 13:41:43 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-04-29 15:08:21 ERROR  : ERROR:  permission denied for relation pg_authid
+2015-04-29 15:08:24 ERROR  : ERROR:  permission denied for relation pg_authid
+2015-05-06 09:24:45 ERROR  : Error connecting to the server: 致命错误:  用户 "postgres" Password 认证失败
+
+2015-05-06 13:47:39 ERROR  : 没有找到对象的架构节点 TABLE public check [所有者: pam]
+2015-05-06 13:47:52 ERROR  : 没有找到对象的架构节点 BLOB 33076 [所有者: BLOB - 33076 pam]
+2015-05-06 13:47:53 ERROR  : 没有找到对象的架构节点 BLOB 33401 [所有者: BLOB - 33401 pam]
+2015-05-06 13:47:54 ERROR  : 没有找到对象的架构节点 BLOB 33456 [所有者: BLOB - 33456 pam]
+2015-05-06 13:47:55 ERROR  : 没有找到对象的架构节点 BLOB 34063 [所有者: BLOB - 34063 pam]
+2015-05-06 13:47:55 ERROR  : 没有找到对象的架构节点 BLOB 34215 [所有者: BLOB - 34215 pam]
+2015-05-06 13:47:56 ERROR  : 没有找到对象的架构节点 BLOB 34216 [所有者: BLOB - 34216 pam]
+2015-05-06 13:47:57 ERROR  : 没有找到对象的架构节点 BLOB 34278 [所有者: BLOB - 34278 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 34279 [所有者: BLOB - 34279 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 34573 [所有者: BLOB - 34573 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 34858 [所有者: BLOB - 34858 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 34859 [所有者: BLOB - 34859 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 35144 [所有者: BLOB - 35144 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 35145 [所有者: BLOB - 35145 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 35430 [所有者: BLOB - 35430 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 35999 [所有者: BLOB - 35999 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 36000 [所有者: BLOB - 36000 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 36001 [所有者: BLOB - 36001 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 36002 [所有者: BLOB - 36002 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 36003 [所有者: BLOB - 36003 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 36004 [所有者: BLOB - 36004 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 36005 [所有者: BLOB - 36005 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 36006 [所有者: BLOB - 36006 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 36290 [所有者: BLOB - 36290 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 36575 [所有者: BLOB - 36575 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 36910 [所有者: BLOB - 36910 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 37225 [所有者: BLOB - 37225 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 37510 [所有者: BLOB - 37510 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 37795 [所有者: BLOB - 37795 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 38083 [所有者: BLOB - 38083 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 38084 [所有者: BLOB - 38084 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 38085 [所有者: BLOB - 38085 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 38370 [所有者: BLOB - 38370 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 38655 [所有者: BLOB - 38655 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 38940 [所有者: BLOB - 38940 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 39225 [所有者: BLOB - 39225 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 39510 [所有者: BLOB - 39510 pam]
+2015-05-06 13:47:58 ERROR  : 没有找到对象的架构节点 BLOB 39795 [所有者: BLOB - 39795 pam]
+2015-05-06 13:47:59 ERROR  : 没有找到对象的架构节点 BLOB 40080 [所有者: BLOB - 40080 pam]
+2015-05-06 13:47:59 ERROR  : 没有找到对象的架构节点 BLOB 40081 [所有者: BLOB - 40081 pam]
+2015-05-06 13:47:59 ERROR  : 没有找到对象的架构节点 BLOB 40088 [所有者: BLOB - 40088 pam]
+2015-05-06 13:47:59 ERROR  : 没有找到对象的架构节点 BLOB 41213 [所有者: BLOB - 41213 pam]
+2015-05-06 13:47:59 ERROR  : 没有找到对象的架构节点 TABLE public asset_ check [所有者: pam]
+2015-05-06 13:47:59 ERROR  : 没有找到对象的架构节点 BLOBS BLOBS [所有者: - BLOBS ]
+2015-05-06 13:49:49 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2015-05-06 13:49:55 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2015-05-06 13:50:23 ERROR  : Error connecting to the server: FATAL:  password authentication failed for user "postgre"
+
+2015-05-06 14:30:41 ERROR  : 没有找到对象的架构节点 TABLE public check [所有者: pam]
+2015-05-06 14:30:49 ERROR  : 没有找到对象的架构节点 BLOB 33076 [所有者: BLOB - 33076 pam]
+2015-05-06 14:30:56 ERROR  : 没有找到对象的架构节点 BLOB 33401 [所有者: BLOB - 33401 pam]
+2015-05-06 14:30:57 ERROR  : 没有找到对象的架构节点 BLOB 33456 [所有者: BLOB - 33456 pam]
+2015-05-06 14:30:57 ERROR  : 没有找到对象的架构节点 BLOB 34063 [所有者: BLOB - 34063 pam]
+2015-05-06 14:30:58 ERROR  : 没有找到对象的架构节点 BLOB 34215 [所有者: BLOB - 34215 pam]
+2015-05-06 14:30:58 ERROR  : 没有找到对象的架构节点 BLOB 34216 [所有者: BLOB - 34216 pam]
+2015-05-06 14:30:59 ERROR  : 没有找到对象的架构节点 BLOB 34278 [所有者: BLOB - 34278 pam]
+2015-05-06 14:30:59 ERROR  : 没有找到对象的架构节点 BLOB 34279 [所有者: BLOB - 34279 pam]
+2015-05-06 14:31:00 ERROR  : 没有找到对象的架构节点 BLOB 34573 [所有者: BLOB - 34573 pam]
+2015-05-06 14:31:00 ERROR  : 没有找到对象的架构节点 BLOB 34858 [所有者: BLOB - 34858 pam]
+2015-05-06 14:31:00 ERROR  : 没有找到对象的架构节点 BLOB 34859 [所有者: BLOB - 34859 pam]
+2015-05-06 14:31:02 ERROR  : 没有找到对象的架构节点 BLOB 35144 [所有者: BLOB - 35144 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 35145 [所有者: BLOB - 35145 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 35430 [所有者: BLOB - 35430 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 35999 [所有者: BLOB - 35999 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 36000 [所有者: BLOB - 36000 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 36001 [所有者: BLOB - 36001 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 36002 [所有者: BLOB - 36002 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 36003 [所有者: BLOB - 36003 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 36004 [所有者: BLOB - 36004 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 36005 [所有者: BLOB - 36005 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 36006 [所有者: BLOB - 36006 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 36290 [所有者: BLOB - 36290 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 36575 [所有者: BLOB - 36575 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 36910 [所有者: BLOB - 36910 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 37225 [所有者: BLOB - 37225 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 37510 [所有者: BLOB - 37510 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 37795 [所有者: BLOB - 37795 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 38083 [所有者: BLOB - 38083 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 38084 [所有者: BLOB - 38084 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 38085 [所有者: BLOB - 38085 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 38370 [所有者: BLOB - 38370 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 38655 [所有者: BLOB - 38655 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 38940 [所有者: BLOB - 38940 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 39225 [所有者: BLOB - 39225 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 39510 [所有者: BLOB - 39510 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 39795 [所有者: BLOB - 39795 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 40080 [所有者: BLOB - 40080 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 40081 [所有者: BLOB - 40081 pam]
+2015-05-06 14:31:03 ERROR  : 没有找到对象的架构节点 BLOB 40088 [所有者: BLOB - 40088 pam]
+2015-05-06 14:31:04 ERROR  : 没有找到对象的架构节点 BLOB 41213 [所有者: BLOB - 41213 pam]
+2015-05-06 14:31:04 ERROR  : 没有找到对象的架构节点 TABLE public asset_ check [所有者: pam]
+2015-05-06 14:31:04 ERROR  : 没有找到对象的架构节点 BLOBS BLOBS [所有者: - BLOBS ]
+2015-05-06 14:31:56 ERROR  : 没有找到对象的架构节点 TABLE public check [所有者: pam]
+2015-05-06 14:31:57 ERROR  : 没有找到对象的架构节点 BLOB 33076 [所有者: BLOB - 33076 pam]
+2015-05-06 14:31:58 ERROR  : 没有找到对象的架构节点 BLOB 33401 [所有者: BLOB - 33401 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 33456 [所有者: BLOB - 33456 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 34063 [所有者: BLOB - 34063 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 34215 [所有者: BLOB - 34215 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 34216 [所有者: BLOB - 34216 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 34278 [所有者: BLOB - 34278 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 34279 [所有者: BLOB - 34279 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 34573 [所有者: BLOB - 34573 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 34858 [所有者: BLOB - 34858 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 34859 [所有者: BLOB - 34859 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 35144 [所有者: BLOB - 35144 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 35145 [所有者: BLOB - 35145 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 35430 [所有者: BLOB - 35430 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 35999 [所有者: BLOB - 35999 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 36000 [所有者: BLOB - 36000 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 36001 [所有者: BLOB - 36001 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 36002 [所有者: BLOB - 36002 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 36003 [所有者: BLOB - 36003 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 36004 [所有者: BLOB - 36004 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 36005 [所有者: BLOB - 36005 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 36006 [所有者: BLOB - 36006 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 36290 [所有者: BLOB - 36290 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 36575 [所有者: BLOB - 36575 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 36910 [所有者: BLOB - 36910 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 37225 [所有者: BLOB - 37225 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 37510 [所有者: BLOB - 37510 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 37795 [所有者: BLOB - 37795 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 38083 [所有者: BLOB - 38083 pam]
+2015-05-06 14:31:59 ERROR  : 没有找到对象的架构节点 BLOB 38084 [所有者: BLOB - 38084 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 38085 [所有者: BLOB - 38085 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 38370 [所有者: BLOB - 38370 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 38655 [所有者: BLOB - 38655 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 38940 [所有者: BLOB - 38940 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 39225 [所有者: BLOB - 39225 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 39510 [所有者: BLOB - 39510 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 39795 [所有者: BLOB - 39795 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 40080 [所有者: BLOB - 40080 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 40081 [所有者: BLOB - 40081 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 40088 [所有者: BLOB - 40088 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOB 41213 [所有者: BLOB - 41213 pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 TABLE public asset_ check [所有者: pam]
+2015-05-06 14:32:00 ERROR  : 没有找到对象的架构节点 BLOBS BLOBS [所有者: - BLOBS ]
+2015-05-15 20:28:14 ERROR  : ERROR:  relation "asset_ins_id_seq" does not exist
+LINE 2:   FROM asset_ins_id_seq
+               ^
+2015-05-15 20:28:16 ERROR  : Column not found in pgSet: last_value
+2015-05-15 20:28:17 ERROR  : Column not found in pgSet: min_value
+2015-05-15 20:28:18 ERROR  : Column not found in pgSet: max_value
+2015-05-15 20:28:20 ERROR  : Column not found in pgSet: cache_value
+2015-05-15 20:28:20 ERROR  : Column not found in pgSet: increment_by
+2015-05-15 20:28:20 ERROR  : Column not found in pgSet: is_cycled
+2015-05-15 20:28:20 ERROR  : Column not found in pgSet: is_called
+2015-05-15 20:28:20 ERROR  : ERROR:  relation "asset_ins_id_seq" does not exist
+LINE 2:   FROM asset_ins_id_seq
+               ^
+2015-05-15 20:28:20 ERROR  : Column not found in pgSet: last_value
+2015-05-15 20:28:21 ERROR  : Column not found in pgSet: min_value
+2015-05-15 20:28:21 ERROR  : Column not found in pgSet: max_value
+2015-05-15 20:28:21 ERROR  : Column not found in pgSet: cache_value
+2015-05-15 20:28:21 ERROR  : Column not found in pgSet: increment_by
+2015-05-15 20:28:21 ERROR  : Column not found in pgSet: is_cycled
+2015-05-15 20:28:21 ERROR  : Column not found in pgSet: is_called
+2015-05-19 12:11:00 ERROR  : ERROR:  syntax error at or near "("
+LINE 8:   CONSTRAINT workflow_inst_relation_pkey PRIMARY KEY (id)
+                                                             ^
+2015-05-19 17:28:40 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-19 17:46:59 ERROR  : ERROR:  canceling statement due to user request
+2015-05-19 18:08:36 ERROR  : FATAL:  terminating connection due to administrator command
+LINE 1: SELECT count(*) AS rows FROM ONLY jbpm4_deployment
+                                          ^
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-20 14:44:11 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-21 20:12:48 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-23 11:29:04 ERROR  : ERROR:  syntax error at or near "("
+LINE 27:   money_total double precision(4),
+                                       ^
+2015-05-23 11:29:25 ERROR  : ERROR:  syntax error at or near "("
+LINE 29:   money_remark double precision(4),
+                                        ^
+2015-05-23 11:29:27 ERROR  : ERROR:  syntax error at or near "("
+LINE 29:   money_remark double precision(4),
+                                        ^
+2015-05-23 11:29:35 ERROR  : ERROR:  syntax error at or near "("
+LINE 47:   CONSTRAINT purch_con_pkey PRIMARY KEY (id)
+                                                 ^
+2015-05-23 18:43:27 ERROR  : could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host "192.168.1.200" and accepting
+	TCP/IP connections on port 5432?
+
+2015-05-23 18:44:32 ERROR  : could not receive data from server: Software caused connection abort (0x00002745/10053)
+2015-05-23 19:15:35 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-23 19:15:44 ERROR  : ERROR:  syntax error at or near "varying"
+LINE 16:   scale double varying(4),
+                        ^
+2015-05-23 19:31:04 ERROR  : ERROR:  relation "pay_time" already exists
+2015-05-24 14:06:27 ERROR  : ERROR:  syntax error at or near "("
+LINE 15:   CONSTRAINT opt_log_pkey PRIMARY KEY (id)
+                                               ^
+2015-05-25 09:41:49 ERROR  : ERROR:  relation "opt_log" already exists
+2015-05-27 17:19:40 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-27 18:18:56 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-27 18:19:01 ERROR  : ERROR:  invalid input syntax for integer: ""
+LINE 1: ...c on pt.purch_con_id = pc.id where pc.id in    (      ''   )
+                                                                 ^
+2015-05-27 21:12:33 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-27 21:12:44 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-05-28 06:31:20 ERROR  : 错误:  关系 "asset_scrap_id_seq" 不存在
+LINE 2:   FROM asset_scrap_id_seq
+               ^
+2015-05-28 06:31:22 ERROR  : Column not found in pgSet: last_value
+2015-05-28 06:31:23 ERROR  : Column not found in pgSet: min_value
+2015-05-28 06:31:24 ERROR  : Column not found in pgSet: max_value
+2015-05-28 06:31:24 ERROR  : Column not found in pgSet: cache_value
+2015-05-28 06:31:24 ERROR  : Column not found in pgSet: increment_by
+2015-05-28 06:31:24 ERROR  : Column not found in pgSet: is_cycled
+2015-05-28 06:31:24 ERROR  : Column not found in pgSet: is_called
+2015-05-28 06:31:24 ERROR  : 错误:  关系 "asset_scrap_id_seq" 不存在
+LINE 2:   FROM asset_scrap_id_seq
+               ^
+2015-05-28 06:31:25 ERROR  : Column not found in pgSet: last_value
+2015-05-28 06:31:25 ERROR  : Column not found in pgSet: min_value
+2015-05-28 06:31:25 ERROR  : Column not found in pgSet: max_value
+2015-05-28 06:31:25 ERROR  : Column not found in pgSet: cache_value
+2015-05-28 06:31:25 ERROR  : Column not found in pgSet: increment_by
+2015-05-28 06:31:25 ERROR  : Column not found in pgSet: is_cycled
+2015-05-28 06:31:25 ERROR  : Column not found in pgSet: is_called
+2015-05-28 06:32:11 ERROR  : 没有找到对象的架构节点 BLOB 33076 [所有者: BLOB - 33076 pam]
+2015-05-28 06:32:13 ERROR  : 没有找到对象的架构节点 BLOB 33401 [所有者: BLOB - 33401 pam]
+2015-05-28 06:32:17 ERROR  : 没有找到对象的架构节点 BLOB 33456 [所有者: BLOB - 33456 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 34063 [所有者: BLOB - 34063 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 34215 [所有者: BLOB - 34215 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 34216 [所有者: BLOB - 34216 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 34278 [所有者: BLOB - 34278 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 34279 [所有者: BLOB - 34279 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 34573 [所有者: BLOB - 34573 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 34858 [所有者: BLOB - 34858 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 34859 [所有者: BLOB - 34859 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 35144 [所有者: BLOB - 35144 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 35145 [所有者: BLOB - 35145 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 35430 [所有者: BLOB - 35430 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 35999 [所有者: BLOB - 35999 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 36000 [所有者: BLOB - 36000 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 36001 [所有者: BLOB - 36001 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 36002 [所有者: BLOB - 36002 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 36003 [所有者: BLOB - 36003 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 36004 [所有者: BLOB - 36004 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 36005 [所有者: BLOB - 36005 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 36006 [所有者: BLOB - 36006 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 36290 [所有者: BLOB - 36290 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 36575 [所有者: BLOB - 36575 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 36910 [所有者: BLOB - 36910 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 37225 [所有者: BLOB - 37225 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 37510 [所有者: BLOB - 37510 pam]
+2015-05-28 06:32:18 ERROR  : 没有找到对象的架构节点 BLOB 37795 [所有者: BLOB - 37795 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 38083 [所有者: BLOB - 38083 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 38084 [所有者: BLOB - 38084 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 38085 [所有者: BLOB - 38085 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 38370 [所有者: BLOB - 38370 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 38655 [所有者: BLOB - 38655 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 38940 [所有者: BLOB - 38940 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 39225 [所有者: BLOB - 39225 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 39510 [所有者: BLOB - 39510 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 39795 [所有者: BLOB - 39795 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 40080 [所有者: BLOB - 40080 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 40081 [所有者: BLOB - 40081 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 40088 [所有者: BLOB - 40088 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 41213 [所有者: BLOB - 41213 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 41477 [所有者: BLOB - 41477 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 41478 [所有者: BLOB - 41478 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 41479 [所有者: BLOB - 41479 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 41480 [所有者: BLOB - 41480 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 41489 [所有者: BLOB - 41489 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 41490 [所有者: BLOB - 41490 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 41491 [所有者: BLOB - 41491 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 41492 [所有者: BLOB - 41492 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 41493 [所有者: BLOB - 41493 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 49476 [所有者: BLOB - 49476 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 49477 [所有者: BLOB - 49477 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 49478 [所有者: BLOB - 49478 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 49479 [所有者: BLOB - 49479 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 49799 [所有者: BLOB - 49799 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 49800 [所有者: BLOB - 49800 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 50085 [所有者: BLOB - 50085 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 50086 [所有者: BLOB - 50086 pam]
+2015-05-28 06:32:19 ERROR  : 没有找到对象的架构节点 BLOB 50538 [所有者: BLOB - 50538 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50539 [所有者: BLOB - 50539 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50540 [所有者: BLOB - 50540 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50541 [所有者: BLOB - 50541 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50542 [所有者: BLOB - 50542 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50543 [所有者: BLOB - 50543 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50544 [所有者: BLOB - 50544 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50545 [所有者: BLOB - 50545 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50546 [所有者: BLOB - 50546 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50547 [所有者: BLOB - 50547 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50548 [所有者: BLOB - 50548 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50549 [所有者: BLOB - 50549 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50557 [所有者: BLOB - 50557 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50558 [所有者: BLOB - 50558 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50559 [所有者: BLOB - 50559 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50560 [所有者: BLOB - 50560 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50561 [所有者: BLOB - 50561 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50845 [所有者: BLOB - 50845 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50846 [所有者: BLOB - 50846 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50847 [所有者: BLOB - 50847 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50848 [所有者: BLOB - 50848 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50849 [所有者: BLOB - 50849 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50850 [所有者: BLOB - 50850 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50851 [所有者: BLOB - 50851 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50852 [所有者: BLOB - 50852 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50853 [所有者: BLOB - 50853 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50854 [所有者: BLOB - 50854 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50855 [所有者: BLOB - 50855 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 50856 [所有者: BLOB - 50856 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 51141 [所有者: BLOB - 51141 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 51142 [所有者: BLOB - 51142 pam]
+2015-05-28 06:32:20 ERROR  : 没有找到对象的架构节点 BLOB 51463 [所有者: BLOB - 51463 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 51464 [所有者: BLOB - 51464 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 51758 [所有者: BLOB - 51758 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 51759 [所有者: BLOB - 51759 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52060 [所有者: BLOB - 52060 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52061 [所有者: BLOB - 52061 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52062 [所有者: BLOB - 52062 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52063 [所有者: BLOB - 52063 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52064 [所有者: BLOB - 52064 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52065 [所有者: BLOB - 52065 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52066 [所有者: BLOB - 52066 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52067 [所有者: BLOB - 52067 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52068 [所有者: BLOB - 52068 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52069 [所有者: BLOB - 52069 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52070 [所有者: BLOB - 52070 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52071 [所有者: BLOB - 52071 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52073 [所有者: BLOB - 52073 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52074 [所有者: BLOB - 52074 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52075 [所有者: BLOB - 52075 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52076 [所有者: BLOB - 52076 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52077 [所有者: BLOB - 52077 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52078 [所有者: BLOB - 52078 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52079 [所有者: BLOB - 52079 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52080 [所有者: BLOB - 52080 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52081 [所有者: BLOB - 52081 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52082 [所有者: BLOB - 52082 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52083 [所有者: BLOB - 52083 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52084 [所有者: BLOB - 52084 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52085 [所有者: BLOB - 52085 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52086 [所有者: BLOB - 52086 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52087 [所有者: BLOB - 52087 pam]
+2015-05-28 06:32:21 ERROR  : 没有找到对象的架构节点 BLOB 52088 [所有者: BLOB - 52088 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52089 [所有者: BLOB - 52089 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52090 [所有者: BLOB - 52090 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52091 [所有者: BLOB - 52091 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52092 [所有者: BLOB - 52092 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52093 [所有者: BLOB - 52093 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52094 [所有者: BLOB - 52094 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52095 [所有者: BLOB - 52095 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52096 [所有者: BLOB - 52096 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52097 [所有者: BLOB - 52097 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52098 [所有者: BLOB - 52098 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52395 [所有者: BLOB - 52395 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52396 [所有者: BLOB - 52396 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52692 [所有者: BLOB - 52692 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52693 [所有者: BLOB - 52693 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52694 [所有者: BLOB - 52694 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52695 [所有者: BLOB - 52695 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52715 [所有者: BLOB - 52715 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 52716 [所有者: BLOB - 52716 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 53003 [所有者: BLOB - 53003 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 53004 [所有者: BLOB - 53004 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 53308 [所有者: BLOB - 53308 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 53309 [所有者: BLOB - 53309 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 53593 [所有者: BLOB - 53593 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 53594 [所有者: BLOB - 53594 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 53887 [所有者: BLOB - 53887 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 53888 [所有者: BLOB - 53888 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 54173 [所有者: BLOB - 54173 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 54174 [所有者: BLOB - 54174 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 54175 [所有者: BLOB - 54175 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 54176 [所有者: BLOB - 54176 pam]
+2015-05-28 06:32:22 ERROR  : 没有找到对象的架构节点 BLOB 54177 [所有者: BLOB - 54177 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 54178 [所有者: BLOB - 54178 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 54179 [所有者: BLOB - 54179 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 54180 [所有者: BLOB - 54180 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 54181 [所有者: BLOB - 54181 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 54466 [所有者: BLOB - 54466 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 54467 [所有者: BLOB - 54467 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 54762 [所有者: BLOB - 54762 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 54763 [所有者: BLOB - 54763 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 55245 [所有者: BLOB - 55245 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 55246 [所有者: BLOB - 55246 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 55247 [所有者: BLOB - 55247 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 55248 [所有者: BLOB - 55248 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 55249 [所有者: BLOB - 55249 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOB 55250 [所有者: BLOB - 55250 pam]
+2015-05-28 06:32:23 ERROR  : 没有找到对象的架构节点 BLOBS BLOBS [所有者: - BLOBS ]
+2015-05-29 17:48:48 ERROR  : ERROR:  syntax error at or near "("
+LINE 18:   CONSTRAINT budget_sub_pkey PRIMARY KEY (id)
+                                                  ^
+2015-05-29 17:49:00 ERROR  : ERROR:  relation "budget_sub" already exists
+2015-05-29 17:57:54 ERROR  : ERROR:  relation "budget" already exists
+2015-05-29 17:58:14 ERROR  : ERROR:  relation "budget" already exists
+2015-06-15 17:13:29 ERROR  : ERROR:  relation "asset_condition_seq" does not exist
+2015-06-15 17:32:23 ERROR  : ERROR:  relation "asset_condition_seq" does not exist
+2015-06-15 19:20:22 ERROR  : ERROR:  relation "asset_condition_seq" does not exist
+2015-06-15 19:25:24 ERROR  : ERROR:  relation "check_supplier_grade" already exists
+2015-06-15 19:34:05 ERROR  : ERROR:  invalid input syntax for integer: "航信集团公司"
+LINE 142: ...dept" VALUES (nextval('sm_dept_id_seq'::regclass), '航信集团...
+                                                                ^
+2015-06-15 19:34:51 ERROR  : ERROR:  invalid input syntax for integer: "航信集团公司"
+LINE 2: ...dept" VALUES (nextval('sm_dept_id_seq'::regclass), '航信集团...
+                                                              ^
+2015-06-15 19:35:10 ERROR  : ERROR:  column "航信集团公司" does not exist
+LINE 2: ...dept" VALUES (nextval('sm_dept_id_seq'::regclass), "航信集团...
+                                                              ^
+2015-06-15 19:35:33 ERROR  : ERROR:  column "航信集团公司" does not exist
+LINE 2: ...dept" VALUES (nextval('sm_dept_id_seq'::regclass), "航信集团...
+                                                              ^
+2015-06-15 19:58:05 ERROR  : ERROR:  syntax error at or near "select"
+LINE 3: ...sm_user_role" ("id", "role_id", "user_id") VALUES select nex...
+                                                             ^
+2015-06-15 19:58:12 ERROR  : ERROR:  syntax error at or near "as"
+LINE 3: ... INTO "sm_user_role" ("id", "role_id", "user_id") as select ...
+                                                             ^
+2015-06-15 21:34:09 ERROR  : ERROR:  relation "sm_role_power_id_seq" does not exist
+LINE 2:   FROM sm_role_power_id_seq
+               ^
+2015-06-15 21:34:10 ERROR  : Column not found in pgSet: last_value
+2015-06-15 21:34:12 ERROR  : Column not found in pgSet: min_value
+2015-06-15 21:34:12 ERROR  : Column not found in pgSet: max_value
+2015-06-15 21:34:13 ERROR  : Column not found in pgSet: cache_value
+2015-06-15 21:34:14 ERROR  : Column not found in pgSet: increment_by
+2015-06-15 21:34:14 ERROR  : Column not found in pgSet: is_cycled
+2015-06-15 21:34:14 ERROR  : Column not found in pgSet: is_called
+2015-06-15 21:34:14 ERROR  : ERROR:  relation "sm_role_power_id_seq" does not exist
+LINE 2:   FROM sm_role_power_id_seq
+               ^
+2015-06-15 21:34:14 ERROR  : Column not found in pgSet: last_value
+2015-06-15 21:34:14 ERROR  : Column not found in pgSet: min_value
+2015-06-15 21:34:14 ERROR  : Column not found in pgSet: max_value
+2015-06-15 21:34:14 ERROR  : Column not found in pgSet: cache_value
+2015-06-15 21:34:14 ERROR  : Column not found in pgSet: increment_by
+2015-06-15 21:34:14 ERROR  : Column not found in pgSet: is_cycled
+2015-06-15 21:34:14 ERROR  : Column not found in pgSet: is_called
+2015-06-15 21:34:56 ERROR  : ERROR:  syntax error at or near "M"
+LINE 1: M
+        ^
+2015-06-15 21:43:16 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xe5 0x8e
+2015-06-15 21:43:18 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xe5 0x8e
+2015-06-15 21:43:19 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xe5 0x8e
+2015-06-15 21:43:20 ERROR  : ERROR:  invalid byte sequence for encoding "UTF8": 0xe5 0x8e
+2015-06-16 00:13:23 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2015-06-19 11:34:08 ERROR  : Failed to start server postgresql-9.4: Errcode=1058
+Check event log for details.
+2015-06-19 11:34:13 ERROR  : Failed to start server postgresql-9.4: Errcode=1058
+Check event log for details.
+2015-06-19 11:38:17 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-06-19 11:38:18 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-06-19 11:48:08 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-06-19 11:48:18 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-06-19 11:48:25 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2015-06-19 13:31:36 ERROR  : 没有找到对象的架构节点 BLOB 61841 [所有者: BLOB - 61841 pam]
+2015-06-19 13:31:39 ERROR  : 没有找到对象的架构节点 BLOB 61842 [所有者: BLOB - 61842 pam]
+2015-06-19 13:31:39 ERROR  : 没有找到对象的架构节点 BLOB 61843 [所有者: BLOB - 61843 pam]
+2015-06-19 13:31:40 ERROR  : 没有找到对象的架构节点 BLOB 61844 [所有者: BLOB - 61844 pam]
+2015-06-19 13:31:40 ERROR  : 没有找到对象的架构节点 BLOB 61845 [所有者: BLOB - 61845 pam]
+2015-06-19 13:31:40 ERROR  : 没有找到对象的架构节点 BLOB 61846 [所有者: BLOB - 61846 pam]
+2015-06-19 13:31:41 ERROR  : 没有找到对象的架构节点 BLOB 61847 [所有者: BLOB - 61847 pam]
+2015-06-19 13:31:41 ERROR  : 没有找到对象的架构节点 BLOB 61848 [所有者: BLOB - 61848 pam]
+2015-06-19 13:31:41 ERROR  : 没有找到对象的架构节点 BLOB 61849 [所有者: BLOB - 61849 pam]
+2015-06-19 13:31:41 ERROR  : 没有找到对象的架构节点 BLOB 61927 [所有者: BLOB - 61927 pam]
+2015-06-19 13:31:41 ERROR  : 没有找到对象的架构节点 BLOB 61928 [所有者: BLOB - 61928 pam]
+2015-06-19 13:31:41 ERROR  : 没有找到对象的架构节点 BLOB 61940 [所有者: BLOB - 61940 pam]
+2015-06-19 13:31:41 ERROR  : 没有找到对象的架构节点 BLOB 61943 [所有者: BLOB - 61943 pam]
+2015-06-19 13:31:41 ERROR  : 没有找到对象的架构节点 BLOB 61947 [所有者: BLOB - 61947 pam]
+2015-06-19 13:31:41 ERROR  : 没有找到对象的架构节点 BLOBS BLOBS [所有者: - BLOBS ]
+2015-06-30 21:48:21 ERROR  : ERROR:  relation "pay_log" already exists
+2015-07-03 09:09:13 ERROR  : Failed to start server postgresql-9.4: Errcode=1058
+Check event log for details.
+2015-07-03 09:09:20 ERROR  : Failed to start server postgresql-9.4: Errcode=1058
+Check event log for details.
